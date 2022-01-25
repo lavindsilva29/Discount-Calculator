@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/JeweleryApp/JeweleryApp/Controllers/WeatherForecastController.cs
+/JeweleryApp/JeweleryApp/WeatherForecast.cs
+/JeweleryApp/.vs/JeweleryApp/v16
