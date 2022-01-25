@@ -21,7 +21,7 @@ namespace JeweleryApp.Repositories
 
         public async Task<decimal> DiscountCalculator(decimal price, int weight, decimal discount)
         {
-            decimal totalPrice = (price * weight) - (discount / 100) * (price * weight);
+            decimal totalPrice = (price * weight) - ((price * weight * discount)/100);
             return totalPrice;
         }
 
